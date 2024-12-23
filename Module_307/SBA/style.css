@@ -1,0 +1,49 @@
+body {
+  background-color: #fffff9;
+}
+
+nav {
+  background-color: #aaaaaa73;
+}
+
+/* #moto::first-letter {
+  font-size: xx-large;
+} */
+
+#box3::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-primary {
+  background-color: rgba(138, 24, 26, 0.5);
+  border-color: rgba(138, 24, 26, 0.5);
+}
+.btn-primary:hover {
+  background-color: #8a181a;
+  border-color: #8a181a;
+}
+.btn-outline-primary {
+  border-color: #8a181a;
+  color: #8a181a;
+}
+.btn-outline-primary:hover {
+  background-color: #8a181a;
+  border-color: #8a181a;
+}
+
+input[type="radio"]:focus,
+input[type="radio"]:checked {
+  background-color: #8a181a;
+  border-color: #8a181a;
+}
+
+li {
+  padding: 0.5rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+li:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-left: 0;
+}
